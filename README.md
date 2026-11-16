@@ -42,10 +42,15 @@ d31 gameplay and the Pack Studio home screen.
 
 Search Royal Road by title or paste a novel URL, then export chapters as TXT, PDF, or EPUB.
 
+<details>
+<summary>View terminal demo</summary>
+
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./rr-scraper-demo-still.svg">
   <img src="./rr-scraper-demo.svg" alt="Condensed terminal replay for Mother of Learning with example paths, three search results, and all 109 chapters exported as one EPUB in a scrolling terminal." width="650">
 </picture>
+
+</details>
 
 ## Experiments
 
