@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="650" height="248" viewBox="0 0 650 248" role="img">
-<title>rr-scraper: Mother of Learning</title><desc>Condensed replay of the supplied transcript with example paths, three results and a chapter counter.</desc><defs><clipPath id="terminal-scroll-window"><rect x="1" y="37" width="648" height="204"/></clipPath></defs><style>.terminal-log{transform:translateY(-266px)}@media (prefers-reduced-motion: no-preference){.terminal-log{animation:terminal-scroll 15.6s steps(1,end) infinite}@keyframes terminal-scroll{0.000000000%{transform:translateY(-0px)}16.987179487%{transform:translateY(-38px)}19.551282051%{transform:translateY(-76px)}22.115384615%{transform:translateY(-95px)}24.679487179%{transform:translateY(-114px)}27.243589744%{transform:translateY(-171px)}31.089743590%{transform:translateY(-190px)}32.692307692%{transform:translateY(-209px)}67.948717949%{transform:translateY(-266px)}100%{transform:translateY(-266px)}}}text{font-family:ui-monospace,Consolas,"Liberation Mono",monospace;font-size:14px}@media (prefers-reduced-motion: no-preference){
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="520" viewBox="0 0 650 520" role="img">
+<title>rr-scraper: Mother of Learning</title><desc>Condensed replay of the supplied transcript with example paths, three results and a chapter counter.</desc><style>text{font-family:ui-monospace,Consolas,"Liberation Mono",monospace;font-size:14px}@media (prefers-reduced-motion: no-preference){
  .line-1{animation:show-1 15.6s steps(1,end) infinite}@keyframes show-1{0%{opacity:0}2.243589744%,100%{opacity:1}}
  .line-2{animation:show-2 15.6s steps(1,end) infinite}@keyframes show-2{0%{opacity:0}4.807692308%,100%{opacity:1}}
  .line-3{animation:show-3 15.6s steps(1,end) infinite}@keyframes show-3{0%{opacity:0}6.730769231%,100%{opacity:1}}
@@ -21,8 +21,7 @@
  .line-19{animation:show-19 15.6s steps(1,end) infinite}@keyframes show-19{0%{opacity:0}31.089743590%,100%{opacity:1}}
  .line-20{animation:show-20 15.6s steps(1,end) infinite}@keyframes show-20{0%{opacity:0}67.948717949%,100%{opacity:1}}
  .line-21{animation:show-21 15.6s steps(1,end) infinite}@keyframes show-21{0%{opacity:0}67.948717949%,100%{opacity:1}}
- .line-22{animation:show-22 15.6s steps(1,end) infinite}@keyframes show-22{0%{opacity:0}67.948717949%,100%{opacity:1}}.count{opacity:0;animation:pulse 15.6s steps(1,end) infinite;animation-delay:var(--offset)}@keyframes pulse{0%{opacity:1}0.323453305%,100%{opacity:0}}}@media (prefers-reduced-motion: reduce){.count{display:none}}</style><rect x=".5" y=".5" width="649" height="247" rx="11" fill="#0e1926" stroke="#37556c"/><path d="M1 36H649" stroke="#294357"/><circle cx="20" cy="18" r="3" fill="#83bbd0"/><text x="32" y="23" fill="#c5d8e4">rr-scraper</text><text x="628" y="23" text-anchor="end" fill="#9bb3c4">FAST-FORWARD REPLAY</text>
-<g clip-path="url(#terminal-scroll-window)"><g class="terminal-log">
+ .line-22{animation:show-22 15.6s steps(1,end) infinite}@keyframes show-22{0%{opacity:0}67.948717949%,100%{opacity:1}}.count{opacity:0;animation:pulse 15.6s steps(1,end) infinite;animation-delay:var(--offset)}@keyframes pulse{0%{opacity:1}0.323453305%,100%{opacity:0}}}@media (prefers-reduced-motion: reduce){.count{display:none}}</style><rect x=".5" y=".5" width="649" height="519" rx="11" fill="#0e1926" stroke="#37556c"/><path d="M1 36H649" stroke="#294357"/><circle cx="20" cy="18" r="3" fill="#83bbd0"/><text x="32" y="23" fill="#c5d8e4">rr-scraper</text><text x="628" y="23" text-anchor="end" fill="#9bb3c4">FAST-FORWARD REPLAY</text>
 <text xml:space="preserve" x="18" y="59" fill="#a6d6e6">C:\Demo\rr-scraper>node chapter-scraper.js</text>
 <text xml:space="preserve" x="18" y="78" fill="#e0eaf2" class="line-1">Enter RoyalRoad URL OR Search Title: Mother of Learning</text>
 <text xml:space="preserve" x="18" y="97" fill="#e0eaf2" class="line-2">Searching Royal Road for "Mother of Learning"...</text>
@@ -155,5 +154,4 @@
 <text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="107" style="--offset:-5.151376147s">  [107/109] Scraping: 106. I Win (III)</text>
 <text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="108" style="--offset:-5.100917431s">  [108/109] Scraping: Epilogue</text>
 <text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="109" style="--offset:-5.050458716s">  [109/109] Scraping: Afterword</text>
-</g></g>
 </svg>
