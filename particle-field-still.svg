@@ -1,112 +1,201 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="262" viewBox="0 0 900 262">
-  <title>Rishabh Mohan</title>
-  <defs>
-    <radialGradient id="field" cx="75%" cy="55%" r="76%">
-      <stop stop-color="#25303e"/>
-      <stop offset=".43" stop-color="#141a23"/>
-      <stop offset="1" stop-color="#10141b"/>
-    </radialGradient>
-    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r=".65" fill="#aab4ca" opacity=".18"/>
-    </pattern>
-    <radialGradient id="grid-fade" cx="78%" cy="55%" r="57%">
-      <stop stop-color="white"/>
-      <stop offset="1" stop-color="black"/>
-    </radialGradient>
-    <mask id="grid-mask">
-      <rect width="900" height="262" fill="url(#grid-fade)"/>
-    </mask>
-    <clipPath id="frame">
-      <rect width="900" height="262" rx="10"/>
-    </clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="326" viewBox="0 0 900 326">
+  <title>Rishabh Mohan · Purdue Computer Science</title>
+  <desc>A cobalt and teal ASCII evergreen on a dark navy field.</desc>
   <style>
-    .p { fill: #b7cadf; opacity: .42; }
-    .p1 { fill: #efb88d; }
+    .mono { font-family: "IBM Plex Mono", Consolas, "Liberation Mono", monospace; }
+    .branch { font-size: 12px; }
+    .speck { stroke: #436fd1; stroke-width: 1; }
+    .s1 { stroke: #367f86; }
+    .s2 { stroke: #334d86; }
+
   </style>
-  <g clip-path="url(#frame)">
-    <rect width="900" height="262" fill="url(#field)"/>
-    <rect width="900" height="262" fill="url(#grid)" mask="url(#grid-mask)"/>
-    <circle class="p p0" cx="642" cy="171" r="1.51"/>
-    <circle class="p p1" cx="747" cy="81" r="1.26"/>
-    <circle class="p p2" cx="841" cy="151" r="1.14"/>
-    <circle class="p p0" cx="227" cy="145" r="0.67"/>
-    <circle class="p p1" cx="653" cy="205" r="0.56"/>
-    <circle class="p p2" cx="695" cy="241" r="1.40"/>
-    <circle class="p p0" cx="231" cy="194" r="1.76"/>
-    <circle class="p p1" cx="335" cy="193" r="1.38"/>
-    <circle class="p p2" cx="824" cy="76" r="1.77"/>
-    <circle class="p p0" cx="833" cy="39" r="0.83"/>
-    <circle class="p p1" cx="302" cy="212" r="1.10"/>
-    <circle class="p p2" cx="475" cy="86" r="1.65"/>
-    <circle class="p p0" cx="629" cy="127" r="1.66"/>
-    <circle class="p p1" cx="310" cy="192" r="0.73"/>
-    <circle class="p p2" cx="844" cy="154" r="1.51"/>
-    <circle class="p p0" cx="656" cy="231" r="0.86"/>
-    <circle class="p p1" cx="363" cy="147" r="1.58"/>
-    <circle class="p p2" cx="665" cy="164" r="1.43"/>
-    <circle class="p p0" cx="845" cy="206" r="1.33"/>
-    <circle class="p p1" cx="760" cy="130" r="1.17"/>
-    <circle class="p p2" cx="272" cy="199" r="1.12"/>
-    <circle class="p p0" cx="124" cy="78" r="1.29"/>
-    <circle class="p p1" cx="473" cy="162" r="0.73"/>
-    <circle class="p p2" cx="604" cy="98" r="0.86"/>
-    <circle class="p p0" cx="562" cy="203" r="1.58"/>
-    <circle class="p p1" cx="240" cy="236" r="0.74"/>
-    <circle class="p p2" cx="329" cy="63" r="0.61"/>
-    <circle class="p p0" cx="808" cy="165" r="0.85"/>
-    <circle class="p p1" cx="109" cy="207" r="0.81"/>
-    <circle class="p p2" cx="146" cy="129" r="1.64"/>
-    <circle class="p p0" cx="262" cy="32" r="0.84"/>
-    <circle class="p p1" cx="873" cy="162" r="1.06"/>
-    <circle class="p p2" cx="522" cy="87" r="1.64"/>
-    <circle class="p p0" cx="234" cy="55" r="1.21"/>
-    <circle class="p p1" cx="150" cy="240" r="1.73"/>
-    <circle class="p p2" cx="510" cy="223" r="1.04"/>
-    <circle class="p p0" cx="92" cy="230" r="1.41"/>
-    <circle class="p p1" cx="392" cy="219" r="0.75"/>
-    <circle class="p p2" cx="201" cy="200" r="0.70"/>
-    <circle class="p p0" cx="184" cy="40" r="1.43"/>
-    <circle class="p p1" cx="142" cy="235" r="1.05"/>
-    <circle class="p p2" cx="457" cy="60" r="0.65"/>
-    <circle class="p p0" cx="211" cy="67" r="1.05"/>
-    <circle class="p p1" cx="489" cy="146" r="0.70"/>
-    <circle class="p p2" cx="162" cy="60" r="0.69"/>
-    <circle class="p p0" cx="447" cy="183" r="1.52"/>
-    <circle class="p p1" cx="874" cy="245" r="0.97"/>
-    <circle class="p p2" cx="173" cy="210" r="1.31"/>
-    <circle class="p p0" cx="388" cy="69" r="1.51"/>
-    <circle class="p p1" cx="93" cy="74" r="0.63"/>
-    <circle class="p p2" cx="167" cy="22" r="0.98"/>
-    <circle class="p p0" cx="579" cy="39" r="1.00"/>
-    <circle class="p p1" cx="646" cy="147" r="0.64"/>
-    <circle class="p p2" cx="800" cy="87" r="1.48"/>
-    <circle class="p p0" cx="340" cy="189" r="1.00"/>
-    <circle class="p p1" cx="461" cy="18" r="0.86"/>
-    <circle class="p p2" cx="821" cy="215" r="0.84"/>
-    <circle class="p p0" cx="557" cy="70" r="0.93"/>
-    <circle class="p p1" cx="84" cy="96" r="1.54"/>
-    <circle class="p p2" cx="500" cy="89" r="1.69"/>
-    <circle class="p p0" cx="781" cy="125" r="1.67"/>
-    <circle class="p p1" cx="795" cy="232" r="1.33"/>
-    <circle class="p p2" cx="712" cy="203" r="1.49"/>
-    <g transform="translate(681 135)" fill="none">
-      <circle r="75" stroke="#aab4ca" stroke-opacity=".24"/>
-      <circle r="100" stroke="#aab4ca" stroke-opacity=".18" stroke-dasharray="1 5"/>
-      <path d="M-115 0H115M0-108V108" stroke="#aab4ca" stroke-opacity=".19" stroke-dasharray="3 5"/>
-      <g transform="rotate(-29)">
-        <ellipse rx="117" ry="34" stroke="#efb88d" stroke-opacity=".63"/>
-        <ellipse rx="87" ry="21" stroke="#b7cadf" stroke-opacity=".38"/>
-        <circle cx="85" cy="-23" r="3" fill="#efb88d"/>
-      </g>
-      <path d="M-7 0H7M0-7V7" stroke="#efb88d" stroke-opacity=".8"/>
-    </g>
-    <g fill="#f6f0e8" font-family="Georgia, Times New Roman, serif" font-size="75" letter-spacing="-3">
-      <text x="51" y="110">Rishabh</text>
-      <text x="51" y="184">Mohan<tspan fill="#efb88d">.</tspan></text>
-    </g>
-    <path d="M56 222H76" stroke="#efb88d"/>
-    <text x="89" y="226" fill="#cbd2df" font-family="monospace" font-size="12" letter-spacing="2">PURDUE COMPUTER SCIENCE</text>
+  <defs>
+    <radialGradient id="night" cx="79%" cy="66%" r="63%">
+      <stop stop-color="#0d192c"/>
+      <stop offset="1" stop-color="#060a12"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="326" fill="url(#night)"/>
+  <rect x=".5" y=".5" width="899" height="325" fill="none" stroke="#253657"/>
+  <g aria-hidden="true">
+    <path d="M566 44h8" class="speck s0" opacity="0.15"/>
+    <path d="M797 31h3" class="speck s1" opacity="0.45"/>
+    <path d="M481 99h2" class="speck s2" opacity="0.53"/>
+    <path d="M859 282h2" class="speck s0" opacity="0.17"/>
+    <path d="M858 152h3" class="speck s1" opacity="0.42"/>
+    <path d="M520 297h3" class="speck s2" opacity="0.21"/>
+    <path d="M656 210h8" class="speck s0" opacity="0.57"/>
+    <path d="M694 133h2" class="speck s1" opacity="0.25"/>
+    <path d="M692 263h1" class="speck s2" opacity="0.21"/>
+    <path d="M591 86h1" class="speck s0" opacity="0.43"/>
+    <path d="M803 49h3" class="speck s1" opacity="0.44"/>
+    <path d="M849 38h3" class="speck s2" opacity="0.19"/>
+    <path d="M628 145h8" class="speck s0" opacity="0.37"/>
+    <path d="M666 47h3" class="speck s1" opacity="0.34"/>
+    <path d="M742 199h2" class="speck s2" opacity="0.29"/>
+    <path d="M865 168h2" class="speck s0" opacity="0.23"/>
+    <path d="M533 57h1" class="speck s1" opacity="0.37"/>
+    <path d="M742 257h3" class="speck s2" opacity="0.22"/>
+    <path d="M843 223h8" class="speck s0" opacity="0.52"/>
+    <path d="M563 290h3" class="speck s1" opacity="0.35"/>
+    <path d="M617 254h1" class="speck s2" opacity="0.40"/>
+    <path d="M668 297h1" class="speck s0" opacity="0.55"/>
+    <path d="M511 253h3" class="speck s1" opacity="0.33"/>
+    <path d="M864 180h1" class="speck s2" opacity="0.25"/>
+    <path d="M720 105h8" class="speck s0" opacity="0.58"/>
+    <path d="M634 180h2" class="speck s1" opacity="0.52"/>
+    <path d="M744 59h3" class="speck s2" opacity="0.28"/>
+    <path d="M607 213h2" class="speck s0" opacity="0.58"/>
+    <path d="M696 297h1" class="speck s1" opacity="0.45"/>
+    <path d="M731 166h1" class="speck s2" opacity="0.30"/>
+    <path d="M686 85h8" class="speck s0" opacity="0.18"/>
+    <path d="M483 70h1" class="speck s1" opacity="0.48"/>
+    <path d="M588 202h3" class="speck s2" opacity="0.30"/>
+    <path d="M533 53h2" class="speck s0" opacity="0.27"/>
+    <path d="M793 136h1" class="speck s1" opacity="0.17"/>
+    <path d="M484 308h1" class="speck s2" opacity="0.51"/>
+    <path d="M577 98h8" class="speck s0" opacity="0.39"/>
+    <path d="M726 116h2" class="speck s1" opacity="0.42"/>
+    <path d="M550 144h3" class="speck s2" opacity="0.29"/>
+    <path d="M858 83h2" class="speck s0" opacity="0.27"/>
+    <path d="M712 184h3" class="speck s1" opacity="0.20"/>
+    <path d="M571 194h1" class="speck s2" opacity="0.20"/>
+    <path d="M494 56h8" class="speck s0" opacity="0.55"/>
+    <path d="M730 94h2" class="speck s1" opacity="0.31"/>
+    <path d="M850 288h2" class="speck s2" opacity="0.14"/>
+    <path d="M871 29h1" class="speck s0" opacity="0.25"/>
+    <path d="M836 183h3" class="speck s1" opacity="0.48"/>
+    <path d="M547 144h2" class="speck s2" opacity="0.55"/>
+    <path d="M556 299h8" class="speck s0" opacity="0.58"/>
+    <path d="M592 100h3" class="speck s1" opacity="0.59"/>
+    <path d="M663 110h2" class="speck s2" opacity="0.30"/>
+    <path d="M512 77h2" class="speck s0" opacity="0.50"/>
+    <path d="M641 309h3" class="speck s1" opacity="0.41"/>
+    <path d="M764 217h3" class="speck s2" opacity="0.53"/>
+    <path d="M496 120h8" class="speck s0" opacity="0.47"/>
+    <path d="M724 201h3" class="speck s1" opacity="0.21"/>
+    <path d="M835 76h2" class="speck s2" opacity="0.39"/>
+    <path d="M550 24h1" class="speck s0" opacity="0.42"/>
+    <path d="M839 223h2" class="speck s1" opacity="0.17"/>
+    <path d="M508 279h2" class="speck s2" opacity="0.26"/>
+    <path d="M522 106h8" class="speck s0" opacity="0.36"/>
+    <path d="M785 157h3" class="speck s1" opacity="0.48"/>
+    <path d="M631 127h2" class="speck s2" opacity="0.54"/>
+    <path d="M661 166h2" class="speck s0" opacity="0.17"/>
+    <path d="M660 185h3" class="speck s1" opacity="0.38"/>
+    <path d="M513 158h1" class="speck s2" opacity="0.37"/>
+    <path d="M685 237h8" class="speck s0" opacity="0.39"/>
+    <path d="M654 108h1" class="speck s1" opacity="0.19"/>
+    <path d="M811 90h1" class="speck s2" opacity="0.32"/>
+    <path d="M560 126h3" class="speck s0" opacity="0.34"/>
+    <path d="M514 149h1" class="speck s1" opacity="0.22"/>
+    <path d="M640 294h3" class="speck s2" opacity="0.39"/>
+    <path d="M720 115h8" class="speck s0" opacity="0.32"/>
+    <path d="M590 280h1" class="speck s1" opacity="0.41"/>
+    <path d="M466 267h1" class="speck s2" opacity="0.45"/>
+    <path d="M778 239h2" class="speck s0" opacity="0.58"/>
+    <path d="M786 60h2" class="speck s1" opacity="0.15"/>
+    <path d="M649 117h2" class="speck s2" opacity="0.32"/>
+    <path d="M846 109h8" class="speck s0" opacity="0.44"/>
+    <path d="M717 127h3" class="speck s1" opacity="0.42"/>
+    <path d="M531 21h3" class="speck s2" opacity="0.27"/>
+    <path d="M814 23h3" class="speck s0" opacity="0.17"/>
+    <path d="M858 241h1" class="speck s1" opacity="0.56"/>
+    <path d="M790 246h1" class="speck s2" opacity="0.43"/>
+    <path d="M764 249h8" class="speck s0" opacity="0.54"/>
+    <path d="M556 276h2" class="speck s1" opacity="0.34"/>
+    <path d="M688 244h1" class="speck s2" opacity="0.40"/>
+    <path d="M858 294h2" class="speck s0" opacity="0.54"/>
+    <path d="M661 61h1" class="speck s1" opacity="0.41"/>
+    <path d="M726 195h1" class="speck s2" opacity="0.47"/>
+    <path d="M573 176h8" class="speck s0" opacity="0.53"/>
+    <path d="M770 218h3" class="speck s1" opacity="0.50"/>
+    <path d="M525 43h1" class="speck s2" opacity="0.17"/>
+    <path d="M742 76h2" class="speck s0" opacity="0.33"/>
+    <path d="M734 107h2" class="speck s1" opacity="0.19"/>
+    <path d="M848 122h1" class="speck s2" opacity="0.54"/>
+    <path d="M611 254h8" class="speck s0" opacity="0.36"/>
+    <path d="M798 243h1" class="speck s1" opacity="0.46"/>
+    <path d="M648 282h3" class="speck s2" opacity="0.53"/>
+    <path d="M614 241h1" class="speck s0" opacity="0.49"/>
+    <path d="M800 99h3" class="speck s1" opacity="0.35"/>
+    <path d="M729 117h1" class="speck s2" opacity="0.37"/>
+    <path d="M496 165h8" class="speck s0" opacity="0.17"/>
+    <path d="M792 140h1" class="speck s1" opacity="0.13"/>
+    <path d="M512 221h3" class="speck s2" opacity="0.26"/>
+    <path d="M871 201h2" class="speck s0" opacity="0.37"/>
+    <path d="M692 208h3" class="speck s1" opacity="0.19"/>
+    <path d="M496 251h2" class="speck s2" opacity="0.37"/>
+    <path d="M823 194h8" class="speck s0" opacity="0.42"/>
+    <path d="M790 177h2" class="speck s1" opacity="0.53"/>
+    <path d="M809 195h1" class="speck s2" opacity="0.57"/>
+    <path d="M554 84h3" class="speck s0" opacity="0.23"/>
+    <path d="M558 173h3" class="speck s1" opacity="0.30"/>
+    <path d="M476 171h3" class="speck s2" opacity="0.23"/>
+    <path d="M771 269h8" class="speck s0" opacity="0.56"/>
+    <path d="M575 294h3" class="speck s1" opacity="0.23"/>
+    <path d="M570 237h2" class="speck s2" opacity="0.43"/>
+    <path d="M502 238h2" class="speck s0" opacity="0.38"/>
+    <path d="M661 113h1" class="speck s1" opacity="0.34"/>
+    <path d="M662 278h1" class="speck s2" opacity="0.18"/>
+    <path d="M709 157h8" class="speck s0" opacity="0.54"/>
+    <path d="M797 78h2" class="speck s1" opacity="0.14"/>
+    <path d="M569 149h3" class="speck s2" opacity="0.42"/>
+    <path d="M746 274h1" class="speck s0" opacity="0.37"/>
+    <path d="M543 137h1" class="speck s1" opacity="0.15"/>
+    <path d="M560 170h1" class="speck s2" opacity="0.53"/>
+    <path d="M836 195h8" class="speck s0" opacity="0.37"/>
+    <path d="M605 163h3" class="speck s1" opacity="0.21"/>
+    <path d="M500 70h3" class="speck s2" opacity="0.28"/>
+    <path d="M699 75h1" class="speck s0" opacity="0.41"/>
+    <path d="M671 201h3" class="speck s1" opacity="0.47"/>
+    <path d="M571 197h2" class="speck s2" opacity="0.46"/>
+    <path d="M828 264h8" class="speck s0" opacity="0.32"/>
+    <path d="M505 110h2" class="speck s1" opacity="0.45"/>
+    <path d="M861 224h2" class="speck s2" opacity="0.52"/>
+    <path d="M845 90h3" class="speck s0" opacity="0.48"/>
+    <path d="M488 236h1" class="speck s1" opacity="0.48"/>
+    <path d="M674 232h1" class="speck s2" opacity="0.29"/>
+    <path d="M698 47h8" class="speck s0" opacity="0.16"/>
+    <path d="M766 20h2" class="speck s1" opacity="0.41"/>
+    <path d="M566 66h2" class="speck s2" opacity="0.47"/>
+    <path d="M629 75h1" class="speck s0" opacity="0.14"/>
+    <path d="M622 97h2" class="speck s1" opacity="0.41"/>
+    <path d="M483 229h2" class="speck s2" opacity="0.14"/>
+    <path d="M737 139h8" class="speck s0" opacity="0.58"/>
   </g>
-  <rect x=".5" y=".5" width="899" height="261" rx="10" fill="none" stroke="#aab4ca" stroke-opacity=".22"/>
+  <g class="mono" xml:space="preserve" aria-hidden="true">
+    <text x="588" y="35" class="branch moving" style="--left:-8.47px;--right:12.23px" fill="#527dd7">              .</text>
+    <text x="588" y="45.2" class="branch moving" style="--left:-7.95px;--right:11.48px" fill="#73bfd0">             /:\</text>
+    <text x="588" y="55.4" class="branch moving" style="--left:-7.44px;--right:10.75px" fill="#527dd7">            .:|:.</text>
+    <text x="588" y="65.6" class="branch moving" style="--left:-6.95px;--right:10.03px" fill="#527dd7">           .:/|\:.</text>
+    <text x="588" y="75.8" class="branch moving" style="--left:-6.46px;--right:9.34px" fill="#527dd7">            :/|\:</text>
+    <text x="588" y="86" class="branch moving" style="--left:-5.99px;--right:8.66px" fill="#73bfd0">          .::/|\::.</text>
+    <text x="588" y="96.19999999999999" class="branch moving" style="--left:-5.53px;--right:7.99px" fill="#527dd7">         .::/.|.\::.</text>
+    <text x="588" y="106.39999999999999" class="branch moving" style="--left:-5.09px;--right:7.35px" fill="#527dd7">        .::/..|..\::.</text>
+    <text x="588" y="116.6" class="branch moving" style="--left:-4.66px;--right:6.73px" fill="#527dd7">         .:/::|::\:.</text>
+    <text x="588" y="126.8" class="branch moving" style="--left:-4.24px;--right:6.13px" fill="#73bfd0">       .::/::/|\::\::.</text>
+    <text x="588" y="137" class="branch moving" style="--left:-3.84px;--right:5.54px" fill="#527dd7">      .::/::/ | \::\::.</text>
+    <text x="588" y="147.2" class="branch moving" style="--left:-3.45px;--right:4.98px" fill="#527dd7">        :/::/.|.\::\:</text>
+    <text x="588" y="157.39999999999998" class="branch moving" style="--left:-3.07px;--right:4.44px" fill="#527dd7">     .::/::/. | .\::\::.</text>
+    <text x="588" y="167.6" class="branch moving" style="--left:-2.71px;--right:3.92px" fill="#73bfd0">      .:/::/: | :\::\:.</text>
+    <text x="588" y="177.79999999999998" class="branch moving" style="--left:-2.37px;--right:3.43px" fill="#527dd7">   .::/::/: ./|\ .:\::\::.</text>
+    <text x="588" y="188" class="branch moving" style="--left:-2.05px;--right:2.96px" fill="#527dd7">    .::/:. .:/|\:. .:\::.</text>
+    <text x="588" y="198.2" class="branch moving" style="--left:-1.74px;--right:2.51px" fill="#527dd7">  .::/:..  .:/|\:.  ..:\::.</text>
+    <text x="588" y="208.39999999999998" class="branch moving" style="--left:-1.45px;--right:2.09px" fill="#73bfd0">   .:/::  .:/ | \:.  ::\:.</text>
+    <text x="588" y="218.6" class="branch moving" style="--left:-1.18px;--right:1.70px" fill="#527dd7">  .:/.:  .:/  |  \:.  :.\:.</text>
+    <text x="588" y="228.79999999999998" class="branch moving" style="--left:-0.93px;--right:1.34px" fill="#527dd7">       .:/    |    \:.</text>
+    <text x="588" y="239" class="branch moving" style="--left:-0.70px;--right:1.01px" fill="#557a96">          .  /|\  .</text>
+    <text x="588" y="249.2" class="branch moving" style="--left:-0.49px;--right:0.71px" fill="#557a96">             |||</text>
+    <text x="588" y="259.4" class="branch moving" style="--left:-0.32px;--right:0.46px" fill="#557a96">             |||</text>
+    <text x="588" y="269.6" class="branch" fill="#557a96">             |||</text>
+    <text x="588" y="279.79999999999995" class="branch" fill="#557a96">            /|||</text>
+    <text x="588" y="290" class="branch" fill="#557a96">        ___/ || \___</text>
+    <text x="548" y="304" fill="#425d89" font-size="12">··············································</text>
+  </g>
+  <g class="mono">
+    <text x="45" y="68" fill="#77bce2" font-size="21">@rishabh-mohan</text>
+    <text x="45" y="150" fill="#e3eeff" font-weight="700" font-size="49">Rishabh Mohan</text>
+    <text x="47" y="193" fill="#96aaca" font-size="25">Purdue Computer Science</text>
+  </g>
 </svg>

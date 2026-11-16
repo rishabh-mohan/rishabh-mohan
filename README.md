@@ -1,13 +1,17 @@
 <h1>
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./particle-field-still.svg">
-    <img src="./particle-field.svg" alt="Rishabh Mohan" width="900">
+    <img src="./particle-field.svg" alt="Rishabh Mohan · Purdue Computer Science" width="900">
   </picture>
 </h1>
 
+[About](#about) / [Selected projects](#selected-projects) / [Experiments](#experiments)
+
+## `About`
+
 I’m a Purdue computer science student interested in algorithms and machine intelligence. I like building tools that make complicated things easier to explore, from a game’s rules to a week of classes.
 
-## Selected projects
+## `Selected projects`
 
 ### [d31](https://github.com/rishabh-mohan/d31) · Simulation engine
 
@@ -25,7 +29,7 @@ A JavaScript CLI for fetching chapters from a selected Royal Road novel and expo
 
 A Firefox extension that gives Brightspace a Canvas-style dashboard for courses, assignments, grades, and calendars. It supports what-if grades and can bring in work from Gradescope and Ed Discussion.
 
-## Experiments
+## `Experiments`
 
 - **Purdue Course Request Planner** — A browser extension prototype that previews weekly schedules, flags overlaps, and compares alternatives by start time, gap length, and how many days you’d be on campus.
 - **Maze solver** — A small pathfinding project I wrote to explore how a search algorithm moves through a maze and finds a route.
