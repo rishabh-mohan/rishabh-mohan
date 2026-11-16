@@ -11,7 +11,7 @@ I’m a Purdue CS student interested in algorithms and machine intelligence. I b
 
 ## Selected projects
 
-### [Brightspace Canvas Wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
+### <img src="./brightspace-icon.png" alt="" width="24"> [Brightspace Canvas Wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
 
 A Canvas-style dashboard for Brightspace with what-if grades and optional Gradescope and Ed Discussion integrations. It puts courses, assignments, grades, and the calendar in one interface.
 
@@ -22,7 +22,7 @@ A Canvas-style dashboard for Brightspace with what-if grades and optional Grades
 
 </details>
 
-### [d31](https://github.com/rishabh-mohan/d31) + [Pack Studio](https://github.com/rishabh-mohan/pack-studio) · Game engine and editor
+### <img src="./d31-icon.png" alt="" width="24"> [d31](https://github.com/rishabh-mohan/d31) + <img src="./pack-studio-icon.png" alt="" width="24"> [Pack Studio](https://github.com/rishabh-mohan/pack-studio) · Game engine and editor
 
 d31 is a clean-room Dart and Flutter rebuild of Korean Student Simulator’s 31-Day Mode. The engine reads the calendar, locations, items, and branching events from JSON packs, so a new campaign can run without changes to the engine. Pack Studio is the Android editor for those packs and validates them with the game engine.
 
@@ -30,21 +30,21 @@ d31 is a clean-room Dart and Flutter rebuild of Korean Student Simulator’s 31-
 <summary>View d31 and Pack Studio</summary>
 
 <p>
-  <img src="./d31-preview.png" alt="d31 home screen with the study desk, game menu, and Start button" width="220">
-  <img src="./pack-studio-icon.png" alt="Pack Studio launcher icon, an orange tile with a folder marked 30" width="132">
+  <img src="./d31-gameplay.jpg" alt="d31 day-one school scene with weekly goals, subject stats, and activity cards" width="220">
+  <img src="./pack-studio-screenshot.jpg" alt="Pack Studio home screen with New pack, Open pack, and recent packs" width="220">
 </p>
 
-d31 home screen and Pack Studio launcher icon.
+d31 gameplay and the Pack Studio home screen.
 
 </details>
 
-### [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Node.js CLI
+### <img src="https://www.royalroad.com/favicon.ico" alt="" width="24"> [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Node.js CLI
 
-Search Royal Road by title or paste a novel URL, then export chapters as TXT, PDF, or EPUB. I wrote the original scraper and later used AI to help refactor it.
+Search Royal Road by title or paste a novel URL, then export chapters as TXT, PDF, or EPUB.
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./rr-scraper-demo-still.svg">
-  <img src="./rr-scraper-demo.svg" alt="Example terminal run of node chapter-scraper.js: search for Clockwork Isles, select a result, and export all chapters as EPUB." width="550">
+  <img src="./rr-scraper-demo.svg" alt="Offline run of node chapter-scraper.js using a direct Royal Road URL and exporting a two-chapter test fixture to Book.epub." width="550">
 </picture>
 
 ## Experiments
