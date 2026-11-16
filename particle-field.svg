@@ -7,11 +7,12 @@
     .speck { stroke: #436fd1; stroke-width: 1; }
     .s1 { stroke: #367f86; }
     .s2 { stroke: #334d86; }
-    .moving { animation: sway 9s steps(1, end) infinite; }
+    .moving { animation: sway 6s steps(1, end) infinite; }
     @keyframes sway {
       0%, 100% { transform: translateX(0); }
-      23% { transform: translateX(var(--right)); }
-      58% { transform: translateX(var(--left)); }
+      25% { transform: translateX(var(--right)); }
+      50% { transform: translateX(0); }
+      75% { transform: translateX(var(--left)); }
     }
     @media (prefers-reduced-motion: reduce) {
       .moving { animation: none; }
@@ -173,32 +174,32 @@
     <path d="M737 139h8" class="speck s0" opacity="0.58"/>
   </g>
   <g class="mono" xml:space="preserve" aria-hidden="true">
-    <text x="588" y="35" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7">              .</text>
-    <text x="588" y="45.2" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#73bfd0">             /:\</text>
-    <text x="588" y="55.4" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7">            .:|:.</text>
-    <text x="588" y="65.6" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7">           .:/|\:.</text>
-    <text x="588" y="75.8" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7">            :/|\:</text>
-    <text x="588" y="86" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#73bfd0">          .::/|\::.</text>
-    <text x="588" y="96.19999999999999" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7">         .::/.|.\::.</text>
-    <text x="588" y="106.39999999999999" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7">        .::/..|..\::.</text>
-    <text x="588" y="116.6" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7">         .:/::|::\:.</text>
-    <text x="588" y="126.8" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#73bfd0">       .::/::/|\::\::.</text>
-    <text x="588" y="137" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7">      .::/::/ | \::\::.</text>
-    <text x="588" y="147.2" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7">        :/::/.|.\::\:</text>
-    <text x="588" y="157.39999999999998" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7">     .::/::/. | .\::\::.</text>
-    <text x="588" y="167.6" class="branch moving" style="--left:0px;--right:7.2px" fill="#73bfd0">      .:/::/: | :\::\:.</text>
-    <text x="588" y="177.79999999999998" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7">   .::/::/: ./|\ .:\::\::.</text>
-    <text x="588" y="188" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7">    .::/:. .:/|\:. .:\::.</text>
-    <text x="588" y="198.2" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7">  .::/:..  .:/|\:.  ..:\::.</text>
-    <text x="588" y="208.39999999999998" class="branch moving" style="--left:0px;--right:0px" fill="#73bfd0">   .:/::  .:/ | \:.  ::\:.</text>
-    <text x="588" y="218.6" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7">  .:/.:  .:/  |  \:.  :.\:.</text>
-    <text x="588" y="228.79999999999998" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7">       .:/    |    \:.</text>
-    <text x="588" y="239" class="branch moving" style="--left:0px;--right:0px" fill="#557a96">          .  /|\  .</text>
-    <text x="588" y="249.2" class="branch moving" style="--left:0px;--right:0px" fill="#557a96">             |||</text>
-    <text x="588" y="259.4" class="branch moving" style="--left:0px;--right:0px" fill="#557a96">             |||</text>
-    <text x="588" y="269.6" class="branch" fill="#557a96">             |||</text>
-    <text x="588" y="279.79999999999995" class="branch" fill="#557a96">            /|||</text>
-    <text x="588" y="290" class="branch" fill="#557a96">        ___/ || \___</text>
+    <text x="588" y="35" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7" textLength="108" lengthAdjust="spacingAndGlyphs">              .</text>
+    <text x="588" y="45.2" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#73bfd0" textLength="115.2" lengthAdjust="spacingAndGlyphs">             /:\</text>
+    <text x="588" y="55.4" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7" textLength="122.4" lengthAdjust="spacingAndGlyphs">            .:|:.</text>
+    <text x="588" y="65.6" class="branch moving" style="--left:-7.2px;--right:14.4px" fill="#527dd7" textLength="129.6" lengthAdjust="spacingAndGlyphs">           .:/|\:.</text>
+    <text x="588" y="75.8" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7" textLength="122.4" lengthAdjust="spacingAndGlyphs">            :/|\:</text>
+    <text x="588" y="86" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#73bfd0" textLength="136.8" lengthAdjust="spacingAndGlyphs">          .::/|\::.</text>
+    <text x="588" y="96.19999999999999" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7" textLength="144" lengthAdjust="spacingAndGlyphs">         .::/.|.\::.</text>
+    <text x="588" y="106.39999999999999" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7" textLength="151.2" lengthAdjust="spacingAndGlyphs">        .::/..|..\::.</text>
+    <text x="588" y="116.6" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7" textLength="144" lengthAdjust="spacingAndGlyphs">         .:/::|::\:.</text>
+    <text x="588" y="126.8" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#73bfd0" textLength="158.4" lengthAdjust="spacingAndGlyphs">       .::/::/|\::\::.</text>
+    <text x="588" y="137" class="branch moving" style="--left:-7.2px;--right:7.2px" fill="#527dd7" textLength="165.6" lengthAdjust="spacingAndGlyphs">      .::/::/ | \::\::.</text>
+    <text x="588" y="147.2" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7" textLength="151.2" lengthAdjust="spacingAndGlyphs">        :/::/.|.\::\:</text>
+    <text x="588" y="157.39999999999998" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7" textLength="172.8" lengthAdjust="spacingAndGlyphs">     .::/::/. | .\::\::.</text>
+    <text x="588" y="167.6" class="branch moving" style="--left:0px;--right:7.2px" fill="#73bfd0" textLength="165.6" lengthAdjust="spacingAndGlyphs">      .:/::/: | :\::\:.</text>
+    <text x="588" y="177.79999999999998" class="branch moving" style="--left:0px;--right:7.2px" fill="#527dd7" textLength="187.2" lengthAdjust="spacingAndGlyphs">   .::/::/: ./|\ .:\::\::.</text>
+    <text x="588" y="188" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7" textLength="180" lengthAdjust="spacingAndGlyphs">    .::/:. .:/|\:. .:\::.</text>
+    <text x="588" y="198.2" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7" textLength="194.4" lengthAdjust="spacingAndGlyphs">  .::/:..  .:/|\:.  ..:\::.</text>
+    <text x="588" y="208.39999999999998" class="branch moving" style="--left:0px;--right:0px" fill="#73bfd0" textLength="187.2" lengthAdjust="spacingAndGlyphs">   .:/::  .:/ | \:.  ::\:.</text>
+    <text x="588" y="218.6" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7" textLength="194.4" lengthAdjust="spacingAndGlyphs">  .:/.:  .:/  |  \:.  :.\:.</text>
+    <text x="588" y="228.79999999999998" class="branch moving" style="--left:0px;--right:0px" fill="#527dd7" textLength="158.4" lengthAdjust="spacingAndGlyphs">       .:/    |    \:.</text>
+    <text x="588" y="239" class="branch moving" style="--left:0px;--right:0px" fill="#557a96" textLength="136.8" lengthAdjust="spacingAndGlyphs">          .  /|\  .</text>
+    <text x="588" y="249.2" class="branch moving" style="--left:0px;--right:0px" fill="#557a96" textLength="115.2" lengthAdjust="spacingAndGlyphs">             |||</text>
+    <text x="588" y="259.4" class="branch moving" style="--left:0px;--right:0px" fill="#557a96" textLength="115.2" lengthAdjust="spacingAndGlyphs">             |||</text>
+    <text x="588" y="269.6" class="branch" fill="#557a96" textLength="115.2" lengthAdjust="spacingAndGlyphs">             |||</text>
+    <text x="588" y="279.79999999999995" class="branch" fill="#557a96" textLength="115.2" lengthAdjust="spacingAndGlyphs">            /|||</text>
+    <text x="588" y="290" class="branch" fill="#557a96" textLength="144" lengthAdjust="spacingAndGlyphs">        ___/ || \___</text>
     <text x="548" y="304" fill="#425d89" font-size="12">··············································</text>
   </g>
   <g class="mono">
