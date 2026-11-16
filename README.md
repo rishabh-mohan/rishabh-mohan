@@ -5,7 +5,7 @@
   </picture>
 </h1>
 
-I’m a Purdue computer science student interested in algorithms and machine intelligence. I like building tools that make complicated things easier to explore, from a game’s rules to a week of classes. I’m looking for software engineering internships.
+I’m a Purdue computer science student interested in algorithms and machine intelligence. I like building tools that make complicated things easier to explore, from a game’s rules to a week of classes.
 
 ## Selected projects
 
@@ -20,6 +20,10 @@ The Android companion to d31. It gives pack authors forms for building character
 ### [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Reading tool
 
 A JavaScript CLI for fetching chapters from a selected Royal Road novel and exporting them as TXT, PDF, or EPUB. I wrote the original scraper and later used AI to help refactor it.
+
+### [brightspace-canvas-wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
+
+A Firefox extension that gives Brightspace a Canvas-style dashboard for courses, assignments, grades, and calendars. It supports what-if grades and can bring in work from Gradescope and Ed Discussion.
 
 ## Experiments
 
