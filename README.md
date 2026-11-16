@@ -32,6 +32,8 @@ A Firefox extension that gives Brightspace a Canvas-style dashboard for courses,
 ## `Experiments`
 
 - **Purdue Course Request Planner** — A browser extension prototype that previews weekly schedules, flags overlaps, and compares alternatives by start time, gap length, and how many days you’d be on campus.
-- **Maze solver** — A small pathfinding project I wrote to explore how a search algorithm moves through a maze and finds a route.
+- **`gemini-api`** — A personal command-line tool for sending prompts to Gemini and capturing responses for local workflows.
 
 [More on GitHub →](https://github.com/rishabh-mohan?tab=repositories)
+
+<p><img src="./night-ridge.svg" alt="" width="900"></p>

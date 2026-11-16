@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="166" viewBox="0 0 900 166">
+  <title>Night ridge</title>
+  <desc>Layered cobalt mountains and teal cloud bands against a dark navy sky.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#060a12"/>
+      <stop offset="1" stop-color="#14233b"/>
+    </linearGradient>
+    <linearGradient id="mist">
+      <stop stop-color="#367f86" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#73bfd0" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#436fd1" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grain" width="79" height="34" patternUnits="userSpaceOnUse">
+      <path d="M4 12h1m18 9h4m19-15h2m7 21h1m14-13h3" stroke="#527dd7" stroke-opacity=".34"/>
+      <path d="M15 4h2m20 24h1m31-25h3" stroke="#367f86" stroke-opacity=".45"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="166" fill="url(#sky)"/>
+  <rect width="900" height="125" fill="url(#grain)"/>
+  <g fill="none" stroke="url(#mist)">
+    <path d="M68 59h57l11-4h68l11-4h47l17 8h85M100 63h189m-122 4h156"/>
+    <path d="M465 42h48l10-3h52l9-5h48l19 8h100M548 47h269m-221 4h153"/>
+    <path d="M630 77h49l8-5h79l10 5h78m-157 5h159"/>
+  </g>
+  <path d="M0 134 61 118 101 123 173 96 212 109 273 90 320 107 386 67 410 79 466 57 507 81 535 76 602 108 661 92 707 115 763 97 805 104 853 81 900 95V166H0Z" fill="#152748" stroke="#304d80"/>
+  <path d="m364 81 22-14 24 12 56-22 41 24 28-5 21 10m276 4 21-9 29 9" fill="none" stroke="#527dd7" stroke-opacity=".8"/>
+  <path d="M0 144 60 142 149 107 176 121 212 115 281 145 339 134 414 150 503 123 538 133 603 100 636 113 685 109 762 139 804 128 863 144 900 140V166H0Z" fill="#0b1425" stroke="#203861"/>
+  <path d="M0 156 94 149 184 159 252 147 328 156 411 150 507 159 561 147 650 159 736 148 814 158 900 150V166H0Z" fill="#070b14"/>
+  <path d="M19 154h31m18 0h7m100 3h36m430-2h34m85-4h18m45 7h45" fill="none" stroke="#2c5970" stroke-opacity=".7"/>
+  <rect x=".5" y=".5" width="899" height="165" fill="none" stroke="#253657"/>
+</svg>
