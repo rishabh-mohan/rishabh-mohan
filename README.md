@@ -13,7 +13,7 @@
 
 I’m a Purdue computer science student interested in algorithms and machine intelligence. I like building tools that make complicated things easier to explore, from a game’s rules to a week of classes.
 
-## `Selected projects`
+## `Select projects`
 
 ### [d31](https://github.com/rishabh-mohan/d31) · Simulation engine
 
