@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="166" viewBox="0 0 900 166">
   <title>Night ridge</title>
   <desc>Layered cobalt mountains and teal cloud bands against a dark navy sky.</desc>
+  <style>
+    .clouds { animation: drift 20s ease-in-out infinite alternate; }
+    @keyframes drift { from { transform: translateX(-15px); } to { transform: translateX(24px); } }
+    @media (prefers-reduced-motion: reduce) { .clouds { animation: none; } }
+  </style>
   <defs>
     <linearGradient id="sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#060a12"/>
@@ -18,7 +23,7 @@
   </defs>
   <rect width="900" height="166" fill="url(#sky)"/>
   <rect width="900" height="125" fill="url(#grain)"/>
-  <g fill="none" stroke="url(#mist)">
+  <g class="clouds" fill="none" stroke="url(#mist)">
     <path d="M68 59h57l11-4h68l11-4h47l17 8h85M100 63h189m-122 4h156"/>
     <path d="M465 42h48l10-3h52l9-5h48l19 8h100M548 47h269m-221 4h153"/>
     <path d="M630 77h49l8-5h79l10 5h78m-157 5h159"/>

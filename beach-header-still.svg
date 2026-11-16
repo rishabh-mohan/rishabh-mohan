@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="326" viewBox="0 0 900 326">
+  <title>Rishabh Mohan · Purdue Computer Science</title>
+  <desc>Afternoon sun over a beach with ASCII wind and waves.</desc>
+  <style>
+    .mono { font-family: "IBM Plex Mono", Consolas, "Liberation Mono", monospace; }
+
+  </style>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e5f2f0"/><stop offset="1" stop-color="#f7eed7"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#9bbfc5"/><stop offset="1" stop-color="#c2dbd9"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#f8d891" stop-opacity=".78"/><stop offset="1" stop-color="#f8d891" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="326" fill="url(#sky)"/>
+  <circle cx="792" cy="80" r="89" fill="url(#glow)"/>
+  <circle cx="792" cy="80" r="38" fill="#f0bd62"/>
+  <path d="M484 235Q543 210 624 215T900 204V326H393Z" fill="url(#sea)"/>
+  <path d="M0 278Q137 258 311 282T600 274Q710 253 900 279V326H0Z" fill="#eddebc"/>
+  <path d="M374 287Q531 296 606 276T900 281" fill="none" stroke="#faf5e6" stroke-width="3"/>
+  <g aria-hidden="true" xml:space="preserve" class="mono" font-size="15" text-anchor="start">
+    <text x="551" y="109" class="wind" fill="#517881" textLength="144" lengthAdjust="spacingAndGlyphs">-----.___       </text>
+    <text x="602" y="138" class="wind late" fill="#517881" textLength="162" lengthAdjust="spacingAndGlyphs">-----.__   __..---</text>
+    <text x="542" y="233" class="waves" fill="#456d77" textLength="252" lengthAdjust="spacingAndGlyphs">__~~__    _~~_     __~~__   </text>
+    <text x="556" y="256" class="waves late" fill="#456d77" textLength="288" lengthAdjust="spacingAndGlyphs">~~_    __~~__    __~~~__     ~~~</text>
+  </g>
+  <g class="mono">
+    <text x="45" y="68" fill="#426975" font-size="21">@rishabh-mohan</text>
+    <text x="45" y="150" fill="#19354b" font-weight="700" font-size="49">Rishabh Mohan</text>
+    <text x="47" y="193" fill="#456777" font-size="25">Purdue Computer Science</text>
+  </g>
+  <rect x=".5" y=".5" width="899" height="325" fill="none" stroke="#a7bdba"/>
+</svg>

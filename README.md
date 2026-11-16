@@ -1,8 +1,10 @@
 <h1>
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./particle-field-still.svg">
-    <img src="./particle-field.svg" alt="Rishabh Mohan · Purdue Computer Science" width="900">
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="./beach-header-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./particle-field-still.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./beach-header.svg">
+  <img src="./particle-field.svg" alt="Rishabh Mohan · Purdue Computer Science" width="900">
+</picture>
 </h1>
 
 [About](#about) / [Selected projects](#selected-projects) / [Experiments](#experiments)
@@ -36,4 +38,9 @@ A Firefox extension that gives Brightspace a Canvas-style dashboard for courses,
 
 [More on GitHub →](https://github.com/rishabh-mohan?tab=repositories)
 
-<p><img src="./night-ridge.svg" alt="" width="900"></p>
+<picture>
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="./day-ridge-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./night-ridge-still.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./day-ridge.svg">
+  <img src="./night-ridge.svg" alt="" width="900">
+</picture>
