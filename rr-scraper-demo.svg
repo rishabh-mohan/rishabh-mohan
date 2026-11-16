@@ -1,24 +1,159 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="550" height="260" viewBox="0 0 550 260" role="img">
-<title>rr-scraper terminal demo</title><desc>Selected output from an offline run using public Mother of Learning metadata and placeholder chapter text.</desc>
-<style>text { font-family: ui-monospace,Consolas,"Liberation Mono",monospace; }
-    @media (prefers-reduced-motion: no-preference) {
-.step-1{animation:line-1 8.6s steps(1,end) infinite}@keyframes line-1{0%{opacity:0}5.232558140%,100%{opacity:1}}
-.step-2{animation:line-2 8.6s steps(1,end) infinite}@keyframes line-2{0%{opacity:0}10.465116279%,100%{opacity:1}}
-.step-3{animation:line-3 8.6s steps(1,end) infinite}@keyframes line-3{0%{opacity:0}15.697674419%,100%{opacity:1}}
-.step-4{animation:line-4 8.6s steps(1,end) infinite}@keyframes line-4{0%{opacity:0}20.930232558%,100%{opacity:1}}
-.step-5{animation:line-5 8.6s steps(1,end) infinite}@keyframes line-5{0%{opacity:0}26.162790698%,100%{opacity:1}}
-.step-6{animation:line-6 8.6s steps(1,end) infinite}@keyframes line-6{0%{opacity:0}31.395348837%,100%{opacity:1}}
-.step-7{animation:line-7 8.6s steps(1,end) infinite}@keyframes line-7{0%{opacity:0}36.627906977%,100%{opacity:1}}
-.step-8{animation:line-8 8.6s steps(1,end) infinite}@keyframes line-8{0%{opacity:0}41.860465116%,100%{opacity:1}}
-}</style>
-<rect x=".5" y=".5" width="549" height="259" rx="11" fill="#0e1926" stroke="#37556c"/><path d="M1 36H549" stroke="#294357"/><circle cx="20" cy="18" r="3" fill="#83bbd0"/><text x="32" y="22" font-size="12" fill="#c5d8e4">rr-scraper</text><text x="530" y="22" font-size="11" text-anchor="end" fill="#9bb3c4">OFFLINE FIXTURE</text>
-<text x="20" y="60" font-size="14" fill="#a6d6e6">$ node chapter-scraper.js</text>
-<text x="20" y="81" font-size="14" fill="#e0eaf2" class="step-1">Enter RoyalRoad URL OR Search Title:</text>
-<text x="31" y="102" font-size="13" fill="#e0eaf2" class="step-2">https://www.royalroad.com/fiction/21220/mother-of-learning</text>
-<text x="20" y="123" font-size="14" fill="#e0eaf2" class="step-3">Novel Title: "Mother of Learning"</text>
-<text x="20" y="144" font-size="14" fill="#e0eaf2" class="step-4">Found 109 total chapters!</text>
-<text x="20" y="165" font-size="13" fill="#e0eaf2" class="step-5">Save format: [1] TXT  [2] PDF  [3] EPUB (default 2): 3</text>
-<text x="20" y="186" font-size="13" fill="#e0eaf2" class="step-6">Chapters per file (default all, "all" = every chapter):</text>
-<text x="20" y="207" font-size="13" fill="#e0eaf2" class="step-7">Saving as EPUB: 1 file(s), up to 109 chapter(s) each.</text>
-<text x="20" y="228" font-size="14" fill="#8fdbbd" class="step-8">Saved: Mother of Learning.epub</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="248" viewBox="0 0 650 248" role="img">
+<title>rr-scraper: Mother of Learning</title><desc>Condensed replay of the supplied transcript with example paths, three results and a chapter counter.</desc><defs><clipPath id="terminal-scroll-window"><rect x="1" y="37" width="648" height="204"/></clipPath></defs><style>.terminal-log{transform:translateY(-266px)}@media (prefers-reduced-motion: no-preference){.terminal-log{animation:terminal-scroll 15.6s steps(1,end) infinite}@keyframes terminal-scroll{0.000000000%{transform:translateY(-0px)}16.987179487%{transform:translateY(-38px)}19.551282051%{transform:translateY(-76px)}22.115384615%{transform:translateY(-95px)}24.679487179%{transform:translateY(-114px)}27.243589744%{transform:translateY(-171px)}31.089743590%{transform:translateY(-190px)}32.692307692%{transform:translateY(-209px)}67.948717949%{transform:translateY(-266px)}100%{transform:translateY(-266px)}}}text{font-family:ui-monospace,Consolas,"Liberation Mono",monospace;font-size:14px}@media (prefers-reduced-motion: no-preference){
+ .line-1{animation:show-1 15.6s steps(1,end) infinite}@keyframes show-1{0%{opacity:0}2.243589744%,100%{opacity:1}}
+ .line-2{animation:show-2 15.6s steps(1,end) infinite}@keyframes show-2{0%{opacity:0}4.807692308%,100%{opacity:1}}
+ .line-3{animation:show-3 15.6s steps(1,end) infinite}@keyframes show-3{0%{opacity:0}6.730769231%,100%{opacity:1}}
+ .line-4{animation:show-4 15.6s steps(1,end) infinite}@keyframes show-4{0%{opacity:0}6.730769231%,100%{opacity:1}}
+ .line-5{animation:show-5 15.6s steps(1,end) infinite}@keyframes show-5{0%{opacity:0}6.730769231%,100%{opacity:1}}
+ .line-6{animation:show-6 15.6s steps(1,end) infinite}@keyframes show-6{0%{opacity:0}6.730769231%,100%{opacity:1}}
+ .line-7{animation:show-7 15.6s steps(1,end) infinite}@keyframes show-7{0%{opacity:0}6.730769231%,100%{opacity:1}}
+ .line-8{animation:show-8 15.6s steps(1,end) infinite}@keyframes show-8{0%{opacity:0}13.461538462%,100%{opacity:1}}
+ .line-9{animation:show-9 15.6s steps(1,end) infinite}@keyframes show-9{0%{opacity:0}15.705128205%,100%{opacity:1}}
+ .line-10{animation:show-10 15.6s steps(1,end) infinite}@keyframes show-10{0%{opacity:0}16.987179487%,100%{opacity:1}}
+ .line-11{animation:show-11 15.6s steps(1,end) infinite}@keyframes show-11{0%{opacity:0}16.987179487%,100%{opacity:1}}
+ .line-12{animation:show-12 15.6s steps(1,end) infinite}@keyframes show-12{0%{opacity:0}19.551282051%,100%{opacity:1}}
+ .line-13{animation:show-13 15.6s steps(1,end) infinite}@keyframes show-13{0%{opacity:0}19.551282051%,100%{opacity:1}}
+ .line-14{animation:show-14 15.6s steps(1,end) infinite}@keyframes show-14{0%{opacity:0}22.115384615%,100%{opacity:1}}
+ .line-15{animation:show-15 15.6s steps(1,end) infinite}@keyframes show-15{0%{opacity:0}24.679487179%,100%{opacity:1}}
+ .line-16{animation:show-16 15.6s steps(1,end) infinite}@keyframes show-16{0%{opacity:0}27.243589744%,100%{opacity:1}}
+ .line-17{animation:show-17 15.6s steps(1,end) infinite}@keyframes show-17{0%{opacity:0}27.243589744%,100%{opacity:1}}
+ .line-18{animation:show-18 15.6s steps(1,end) infinite}@keyframes show-18{0%{opacity:0}27.243589744%,100%{opacity:1}}
+ .line-19{animation:show-19 15.6s steps(1,end) infinite}@keyframes show-19{0%{opacity:0}31.089743590%,100%{opacity:1}}
+ .line-20{animation:show-20 15.6s steps(1,end) infinite}@keyframes show-20{0%{opacity:0}67.948717949%,100%{opacity:1}}
+ .line-21{animation:show-21 15.6s steps(1,end) infinite}@keyframes show-21{0%{opacity:0}67.948717949%,100%{opacity:1}}
+ .line-22{animation:show-22 15.6s steps(1,end) infinite}@keyframes show-22{0%{opacity:0}67.948717949%,100%{opacity:1}}.count{opacity:0;animation:pulse 15.6s steps(1,end) infinite;animation-delay:var(--offset)}@keyframes pulse{0%{opacity:1}0.323453305%,100%{opacity:0}}}@media (prefers-reduced-motion: reduce){.count{display:none}}</style><rect x=".5" y=".5" width="649" height="247" rx="11" fill="#0e1926" stroke="#37556c"/><path d="M1 36H649" stroke="#294357"/><circle cx="20" cy="18" r="3" fill="#83bbd0"/><text x="32" y="23" fill="#c5d8e4">rr-scraper</text><text x="628" y="23" text-anchor="end" fill="#9bb3c4">FAST-FORWARD REPLAY</text>
+<g clip-path="url(#terminal-scroll-window)"><g class="terminal-log">
+<text xml:space="preserve" x="18" y="59" fill="#a6d6e6">C:\Demo\rr-scraper>node chapter-scraper.js</text>
+<text xml:space="preserve" x="18" y="78" fill="#e0eaf2" class="line-1">Enter RoyalRoad URL OR Search Title: Mother of Learning</text>
+<text xml:space="preserve" x="18" y="97" fill="#e0eaf2" class="line-2">Searching Royal Road for "Mother of Learning"...</text>
+<text xml:space="preserve" x="18" y="116" fill="#e0eaf2" class="line-3">Top Search Results:</text>
+<text xml:space="preserve" x="18" y="135" fill="#e0eaf2" class="line-4">  [1] Mother of Learning (109 ch | ★ 4.83/5)</text>
+<text xml:space="preserve" x="18" y="154" fill="#e0eaf2" class="line-5">  [2] Mother of Learning: The AU Chapters (5 ch | ★ 4.77/5)</text>
+<text xml:space="preserve" x="18" y="173" fill="#e0eaf2" class="line-6">  [3] Mother of Learning: Abyss of Time, a Fanfiction Continuation.</text>
+<text xml:space="preserve" x="18" y="192" fill="#e0eaf2" class="line-7">      (10 ch | ★ 4.57/5)</text>
+<text xml:space="preserve" x="18" y="211" fill="#e0eaf2" class="line-8">Pick a number (default 1): 1</text>
+<text xml:space="preserve" x="18" y="230" fill="#e0eaf2" class="line-9">Selected: "Mother of Learning"</text>
+<text xml:space="preserve" x="18" y="249" fill="#e0eaf2" class="line-10">Fetching metadata from:</text>
+<text xml:space="preserve" x="18" y="268" fill="#e0eaf2" class="line-11">  https://www.royalroad.com/fiction/21220/mother-of-learning</text>
+<text xml:space="preserve" x="18" y="287" fill="#e0eaf2" class="line-12">Novel Title: "Mother of Learning"</text>
+<text xml:space="preserve" x="18" y="306" fill="#e0eaf2" class="line-13">Found 109 total chapters!</text>
+<text xml:space="preserve" x="18" y="325" fill="#e0eaf2" class="line-14">Save format: [1] TXT  [2] PDF  [3] EPUB (default 2): 3</text>
+<text xml:space="preserve" x="18" y="344" fill="#e0eaf2" class="line-15">Chapters per file (default all, "all" = every chapter): all</text>
+<text xml:space="preserve" x="18" y="363" fill="#e0eaf2" class="line-16">Saving as EPUB: 1 file(s), up to 109 chapter(s) each.</text>
+<text xml:space="preserve" x="18" y="382" fill="#e0eaf2" class="line-17">Output directory:</text>
+<text xml:space="preserve" x="18" y="401" fill="#e0eaf2" class="line-18">  C:\Demo\rr-scraper\downloads\Mother of Learning (21220)</text>
+<text xml:space="preserve" x="18" y="420" fill="#e0eaf2" class="line-19">[file 1/1] Mother of Learning.epub (chapters 1-109)</text>
+<text xml:space="preserve" x="18" y="458" fill="#8fdbbd" class="line-20">Saved: Mother of Learning.epub</text>
+<text xml:space="preserve" x="18" y="477" fill="#8fdbbd" class="line-21">Completed! Output folder:</text>
+<text xml:space="preserve" x="18" y="496" fill="#8fdbbd" class="line-22">  C:\Demo\rr-scraper\downloads\Mother of Learning (21220)</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="1" style="--offset:-10.500000000s">  [1/109] Scraping: 1. Good Morning Brother</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="2" style="--offset:-10.449541284s">  [2/109] Scraping: 2. Life's Little Problems</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="3" style="--offset:-10.399082569s">  [3/109] Scraping chapter 3...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="4" style="--offset:-10.348623853s">  [4/109] Scraping chapter 4...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="5" style="--offset:-10.298165138s">  [5/109] Scraping chapter 5...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="6" style="--offset:-10.247706422s">  [6/109] Scraping chapter 6...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="7" style="--offset:-10.197247706s">  [7/109] Scraping chapter 7...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="8" style="--offset:-10.146788991s">  [8/109] Scraping chapter 8...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="9" style="--offset:-10.096330275s">  [9/109] Scraping chapter 9...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="10" style="--offset:-10.045871560s">  [10/109] Scraping chapter 10...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="11" style="--offset:-9.995412844s">  [11/109] Scraping chapter 11...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="12" style="--offset:-9.944954128s">  [12/109] Scraping chapter 12...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="13" style="--offset:-9.894495413s">  [13/109] Scraping chapter 13...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="14" style="--offset:-9.844036697s">  [14/109] Scraping chapter 14...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="15" style="--offset:-9.793577982s">  [15/109] Scraping chapter 15...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="16" style="--offset:-9.743119266s">  [16/109] Scraping chapter 16...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="17" style="--offset:-9.692660550s">  [17/109] Scraping chapter 17...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="18" style="--offset:-9.642201835s">  [18/109] Scraping chapter 18...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="19" style="--offset:-9.591743119s">  [19/109] Scraping chapter 19...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="20" style="--offset:-9.541284404s">  [20/109] Scraping chapter 20...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="21" style="--offset:-9.490825688s">  [21/109] Scraping chapter 21...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="22" style="--offset:-9.440366972s">  [22/109] Scraping chapter 22...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="23" style="--offset:-9.389908257s">  [23/109] Scraping chapter 23...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="24" style="--offset:-9.339449541s">  [24/109] Scraping chapter 24...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="25" style="--offset:-9.288990826s">  [25/109] Scraping chapter 25...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="26" style="--offset:-9.238532110s">  [26/109] Scraping chapter 26...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="27" style="--offset:-9.188073394s">  [27/109] Scraping chapter 27...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="28" style="--offset:-9.137614679s">  [28/109] Scraping chapter 28...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="29" style="--offset:-9.087155963s">  [29/109] Scraping chapter 29...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="30" style="--offset:-9.036697248s">  [30/109] Scraping chapter 30...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="31" style="--offset:-8.986238532s">  [31/109] Scraping chapter 31...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="32" style="--offset:-8.935779817s">  [32/109] Scraping chapter 32...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="33" style="--offset:-8.885321101s">  [33/109] Scraping chapter 33...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="34" style="--offset:-8.834862385s">  [34/109] Scraping chapter 34...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="35" style="--offset:-8.784403670s">  [35/109] Scraping chapter 35...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="36" style="--offset:-8.733944954s">  [36/109] Scraping chapter 36...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="37" style="--offset:-8.683486239s">  [37/109] Scraping chapter 37...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="38" style="--offset:-8.633027523s">  [38/109] Scraping chapter 38...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="39" style="--offset:-8.582568807s">  [39/109] Scraping chapter 39...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="40" style="--offset:-8.532110092s">  [40/109] Scraping chapter 40...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="41" style="--offset:-8.481651376s">  [41/109] Scraping chapter 41...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="42" style="--offset:-8.431192661s">  [42/109] Scraping chapter 42...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="43" style="--offset:-8.380733945s">  [43/109] Scraping chapter 43...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="44" style="--offset:-8.330275229s">  [44/109] Scraping chapter 44...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="45" style="--offset:-8.279816514s">  [45/109] Scraping chapter 45...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="46" style="--offset:-8.229357798s">  [46/109] Scraping chapter 46...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="47" style="--offset:-8.178899083s">  [47/109] Scraping chapter 47...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="48" style="--offset:-8.128440367s">  [48/109] Scraping chapter 48...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="49" style="--offset:-8.077981651s">  [49/109] Scraping chapter 49...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="50" style="--offset:-8.027522936s">  [50/109] Scraping chapter 50...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="51" style="--offset:-7.977064220s">  [51/109] Scraping chapter 51...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="52" style="--offset:-7.926605505s">  [52/109] Scraping chapter 52...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="53" style="--offset:-7.876146789s">  [53/109] Scraping chapter 53...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="54" style="--offset:-7.825688073s">  [54/109] Scraping chapter 54...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="55" style="--offset:-7.775229358s">  [55/109] Scraping chapter 55...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="56" style="--offset:-7.724770642s">  [56/109] Scraping chapter 56...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="57" style="--offset:-7.674311927s">  [57/109] Scraping chapter 57...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="58" style="--offset:-7.623853211s">  [58/109] Scraping chapter 58...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="59" style="--offset:-7.573394495s">  [59/109] Scraping chapter 59...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="60" style="--offset:-7.522935780s">  [60/109] Scraping chapter 60...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="61" style="--offset:-7.472477064s">  [61/109] Scraping chapter 61...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="62" style="--offset:-7.422018349s">  [62/109] Scraping chapter 62...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="63" style="--offset:-7.371559633s">  [63/109] Scraping chapter 63...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="64" style="--offset:-7.321100917s">  [64/109] Scraping chapter 64...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="65" style="--offset:-7.270642202s">  [65/109] Scraping chapter 65...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="66" style="--offset:-7.220183486s">  [66/109] Scraping chapter 66...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="67" style="--offset:-7.169724771s">  [67/109] Scraping chapter 67...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="68" style="--offset:-7.119266055s">  [68/109] Scraping chapter 68...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="69" style="--offset:-7.068807339s">  [69/109] Scraping chapter 69...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="70" style="--offset:-7.018348624s">  [70/109] Scraping chapter 70...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="71" style="--offset:-6.967889908s">  [71/109] Scraping chapter 71...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="72" style="--offset:-6.917431193s">  [72/109] Scraping chapter 72...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="73" style="--offset:-6.866972477s">  [73/109] Scraping chapter 73...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="74" style="--offset:-6.816513761s">  [74/109] Scraping chapter 74...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="75" style="--offset:-6.766055046s">  [75/109] Scraping chapter 75...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="76" style="--offset:-6.715596330s">  [76/109] Scraping chapter 76...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="77" style="--offset:-6.665137615s">  [77/109] Scraping chapter 77...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="78" style="--offset:-6.614678899s">  [78/109] Scraping chapter 78...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="79" style="--offset:-6.564220183s">  [79/109] Scraping chapter 79...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="80" style="--offset:-6.513761468s">  [80/109] Scraping chapter 80...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="81" style="--offset:-6.463302752s">  [81/109] Scraping chapter 81...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="82" style="--offset:-6.412844037s">  [82/109] Scraping chapter 82...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="83" style="--offset:-6.362385321s">  [83/109] Scraping chapter 83...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="84" style="--offset:-6.311926606s">  [84/109] Scraping chapter 84...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="85" style="--offset:-6.261467890s">  [85/109] Scraping chapter 85...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="86" style="--offset:-6.211009174s">  [86/109] Scraping chapter 86...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="87" style="--offset:-6.160550459s">  [87/109] Scraping chapter 87...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="88" style="--offset:-6.110091743s">  [88/109] Scraping chapter 88...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="89" style="--offset:-6.059633028s">  [89/109] Scraping chapter 89...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="90" style="--offset:-6.009174312s">  [90/109] Scraping chapter 90...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="91" style="--offset:-5.958715596s">  [91/109] Scraping chapter 91...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="92" style="--offset:-5.908256881s">  [92/109] Scraping chapter 92...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="93" style="--offset:-5.857798165s">  [93/109] Scraping chapter 93...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="94" style="--offset:-5.807339450s">  [94/109] Scraping chapter 94...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="95" style="--offset:-5.756880734s">  [95/109] Scraping chapter 95...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="96" style="--offset:-5.706422018s">  [96/109] Scraping chapter 96...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="97" style="--offset:-5.655963303s">  [97/109] Scraping chapter 97...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="98" style="--offset:-5.605504587s">  [98/109] Scraping chapter 98...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="99" style="--offset:-5.555045872s">  [99/109] Scraping chapter 99...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="100" style="--offset:-5.504587156s">  [100/109] Scraping chapter 100...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="101" style="--offset:-5.454128440s">  [101/109] Scraping chapter 101...</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="102" style="--offset:-5.403669725s">  [102/109] Scraping: 101. The Switch</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="103" style="--offset:-5.353211009s">  [103/109] Scraping: 102. Giants</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="104" style="--offset:-5.302752294s">  [104/109] Scraping: 103. Window of Opportunity</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="105" style="--offset:-5.252293578s">  [105/109] Scraping: 104. I Win (I)</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="106" style="--offset:-5.201834862s">  [106/109] Scraping: 105. I Win (II)</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="107" style="--offset:-5.151376147s">  [107/109] Scraping: 106. I Win (III)</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="108" style="--offset:-5.100917431s">  [108/109] Scraping: Epilogue</text>
+<text xml:space="preserve" x="18" y="439" fill="#a6d6e6" class="count" data-chapter="109" style="--offset:-5.050458716s">  [109/109] Scraping: Afterword</text>
+</g></g>
 </svg>
