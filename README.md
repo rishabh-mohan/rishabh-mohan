@@ -7,31 +7,47 @@
 </picture>
 </h1>
 
-[About](#about) / [Selected projects](#selected-projects) / [Experiments](#experiments)
+I’m a Purdue CS student interested in algorithms and machine intelligence. I build tools for problems I run into, from planning classes to editing game content.
 
-## `About`
+## Selected projects
 
-I’m a Purdue computer science student interested in algorithms and machine intelligence. I like building tools that make complicated things easier to explore, from a game’s rules to a week of classes.
+### [Brightspace Canvas Wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
 
-## `Select projects`
+A Canvas-style dashboard for Brightspace with what-if grades and optional Gradescope and Ed Discussion integrations. It puts courses, assignments, grades, and the calendar in one interface.
 
-### [d31](https://github.com/rishabh-mohan/d31) · Simulation engine
+<details>
+<summary>View dashboard</summary>
 
-A clean-room rebuild of Korean Student Simulator’s 31-Day Mode in Dart and Flutter. Editable JSON packs define the calendar, locations, items, and branching events, so the same engine can run a different campaign without changing its code.
+![Brightspace Canvas Wrapper dashboard with demo course cards and a weekly task tracker](./brightspace-demo-dashboard.png)
 
-### [Pack Studio](https://github.com/rishabh-mohan/pack-studio) · Content editor
+</details>
 
-The Android companion to d31. It gives pack authors forms for building characters, locations, and events, then checks the resulting pack with the game engine. It takes the same content model from raw JSON to an editor you can use on your phone.
+### [d31](https://github.com/rishabh-mohan/d31) + [Pack Studio](https://github.com/rishabh-mohan/pack-studio) · Game engine and editor
 
-### [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Reading tool
+d31 is a clean-room Dart and Flutter rebuild of Korean Student Simulator’s 31-Day Mode. The engine reads the calendar, locations, items, and branching events from JSON packs, so a new campaign can run without changes to the engine. Pack Studio is the Android editor for those packs and validates them with the game engine.
 
-A JavaScript CLI for fetching chapters from a selected Royal Road novel and exporting them as TXT, PDF, or EPUB. I wrote the original scraper and later used AI to help refactor it.
+<details>
+<summary>View d31 and Pack Studio</summary>
 
-### [brightspace-canvas-wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
+<p>
+  <img src="./d31-preview.png" alt="d31 home screen with the study desk, game menu, and Start button" width="220">
+  <img src="./pack-studio-icon.png" alt="Pack Studio launcher icon, an orange tile with a folder marked 30" width="132">
+</p>
 
-A Firefox extension that gives Brightspace a Canvas-style dashboard for courses, assignments, grades, and calendars. It supports what-if grades and can bring in work from Gradescope and Ed Discussion.
+d31 home screen and Pack Studio launcher icon.
 
-## `Experiments`
+</details>
+
+### [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Node.js CLI
+
+Search Royal Road by title or paste a novel URL, then export chapters as TXT, PDF, or EPUB. I wrote the original scraper and later used AI to help refactor it.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./rr-scraper-demo-still.svg">
+  <img src="./rr-scraper-demo.svg" alt="Example terminal run of node chapter-scraper.js: search for Clockwork Isles, select a result, and export all chapters as EPUB." width="550">
+</picture>
+
+## Experiments
 
 - **Purdue Course Request Planner** — A browser extension prototype that previews weekly schedules, flags overlaps, and compares alternatives by start time, gap length, and how many days you’d be on campus.
 - **`gemini-api`** — A personal command-line tool for sending prompts to Gemini and capturing responses for local workflows.
