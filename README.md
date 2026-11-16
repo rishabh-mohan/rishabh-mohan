@@ -44,7 +44,7 @@ Search Royal Road by title or paste a novel URL, then export chapters as TXT, PD
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./rr-scraper-demo-still.svg">
-  <img src="./rr-scraper-demo.svg" alt="Offline run of node chapter-scraper.js using a direct Royal Road URL and exporting a two-chapter test fixture to Book.epub." width="550">
+  <img src="./rr-scraper-demo.svg" alt="Offline rr-scraper demo using the Mother of Learning Royal Road listing and placeholder chapter text. The scraper exports Mother of Learning.epub." width="550">
 </picture>
 
 ## Experiments
