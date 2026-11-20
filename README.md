@@ -7,13 +7,15 @@
 </picture>
 </h1>
 
-I’m a Purdue CS student interested in algorithms and machine intelligence. I build tools for problems I run into, from planning classes to editing game content.
+I’m a Purdue CS student (B.S. May 2029) interested in algorithms and machine intelligence. I build tools for problems I run into, from planning classes to editing game content.
+
+**Portfolio:** [rishabh-mohan.github.io](https://rishabh-mohan.github.io/)
 
 ## Selected projects
 
-### <img src="./brightspace-icon.png" alt="" width="24"> [Brightspace Canvas Wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Firefox extension
+### <img src="./brightspace-icon.png" alt="" width="24"> [Brightspace Canvas Wrapper](https://github.com/rishabh-mohan/brightspace-canvas-wrapper) · Chrome and Firefox extension
 
-A Canvas-style dashboard for Brightspace with what-if grades and optional Gradescope and Ed Discussion integrations. It puts courses, assignments, grades, and the calendar in one interface.
+A Canvas-style dashboard for Brightspace with what-if grades and optional Gradescope and Ed Discussion integrations. It puts courses, assignments, grades, and the calendar in one interface. Published on the [Chrome Web Store](https://chromewebstore.google.com/detail/brightspace-canvas-wrappe/ediicphlmlkiglmhnmfdkinefbnbckbp) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/brightspace-canvas-wrapper/).
 
 <details>
 <summary>View dashboard</summary>
@@ -24,7 +26,7 @@ A Canvas-style dashboard for Brightspace with what-if grades and optional Grades
 
 ### <img src="./d31-icon.png" alt="" width="24"> [d31](https://github.com/rishabh-mohan/d31) + <img src="./pack-studio-icon.png" alt="" width="24"> [Pack Studio](https://github.com/rishabh-mohan/pack-studio) · Game engine and editor
 
-d31 is a clean-room Dart and Flutter rebuild of Korean Student Simulator’s 31-Day Mode. The engine reads the calendar, locations, items, and branching events from JSON packs, so a new campaign can run without changes to the engine. Pack Studio is the Android editor for those packs and validates them with the game engine.
+d31 is an independent Dart and Flutter reimplementation of Korean Student Simulator’s 31-Day Mode; no original game assets are included. The engine reads the calendar, locations, items, and branching events from JSON packs, so a new campaign can run without changes to the engine. Pack Studio is the Android editor for those packs and validates them with the game engine.
 
 <details>
 <summary>View d31 and Pack Studio</summary>
@@ -40,7 +42,7 @@ d31 gameplay and the Pack Studio home screen.
 
 ### <img src="https://www.royalroad.com/favicon.ico" alt="" width="24"> [rr-scraper](https://github.com/rishabh-mohan/rr-scraper) · Node.js CLI
 
-Search Royal Road by title or paste a novel URL, then export chapters as TXT, PDF, or EPUB.
+A CLI for reading serialized fiction offline: export a story as TXT, PDF, or EPUB, with per-chapter retries, atomic writes, and reruns that fetch only what’s missing.
 
 <details>
 <summary>View terminal demo</summary>
@@ -54,8 +56,8 @@ Search Royal Road by title or paste a novel URL, then export chapters as TXT, PD
 
 ## Experiments
 
-- **Purdue Course Request Planner** — A browser extension prototype that previews weekly schedules, flags overlaps, and compares alternatives by start time, gap length, and how many days you’d be on campus.
-- **`gemini-api`** — A personal command-line tool for sending prompts to Gemini and capturing responses for local workflows.
+- **[Purdue Registration Planner](https://github.com/rishabh-mohan/purdue-registration-planner)**: a browser extension prototype that previews weekly schedules, flags overlaps, and compares alternatives by start time, gap length, and how many days you’d be on campus.
+- **[Gemini Bridge](https://github.com/rishabh-mohan/hydrogen-bridge)**: a local OpenAI-compatible server that lets the OpenCode coding agent use an organization’s Gemini Enterprise models, with 30 tests in CI.
 
 [More on GitHub →](https://github.com/rishabh-mohan?tab=repositories)
 
